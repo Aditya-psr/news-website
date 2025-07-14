@@ -50,7 +50,7 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* === Top Navbar === */}
+      {/* Top Navbar */}
       <nav className="sticky top-0 z-10 bg-white shadow-sm border-b">
         <div className="flex items-center justify-between px-4 py-3 max-w-7xl mx-auto gap-4 flex-wrap">
           {/* Left: Logo */}
@@ -76,7 +76,7 @@ const HomePage = () => {
           />
         </div>
 
-        {/* === Category Bar === */}
+        {/* Category Bar */}
         <div className="overflow-x-auto border-t bg-gray-100">
           <div className="flex px-4 py-2 gap-2 max-w-7xl mx-auto">
             {categories.map((cat) => (
@@ -96,7 +96,7 @@ const HomePage = () => {
         </div>
       </nav>
 
-      {/* === Articles Section === */}
+      {/* Articles Section */}
       <div className="px-4 py-6 max-w-7xl mx-auto">
         {/* Go to Admin Panel */}
         <div className="mb-6 text-right">
